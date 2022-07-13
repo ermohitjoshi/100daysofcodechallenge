@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main-tasks{
+    margin-top: 5%;
+    font-size: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.task-button{
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    width: 20%;
+    color: white ;
+    background-color: rgb(233, 50, 50);
+}
