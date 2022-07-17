@@ -6,7 +6,6 @@ function App() {
 
   const [city , setCity ] = useState ("");
   const [search , setSearch] = useState ("Khatima");
-  const userInputFuck = math.rand()
 
 useEffect( () => {
 
