@@ -1,0 +1,124 @@
+body{
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+p{
+  color: #55595c;
+}
+
+.HomeContainer {
+  width: 100%;
+  max-width: 90%;
+  margin-left: 5%;
+}
+
+.headerBox{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 115px;  
+}
+
+.headerBox h3 {
+  margin: 0 15px;  
+  font-size: medium;
+}
+
+.active:hover {
+  background-color: aliceblue;
+}
+.active {
+  background-color: rgb(203, 231, 255);
+}
+
+.homeHead{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.homeHead h1 {
+  letter-spacing: 5px;
+}
+
+.homeHead p {
+  margin-top: -20px;
+  font-weight: 300;
+}
+
+.SearchProduct {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.SearchProduct input {
+  width: 300px;
+  padding: 10px;
+  border: 2px solid white;
+   background-color: rgb(203, 231, 255);
+}
+
+.products{
+  width: 100%;
+  max-width: 100%;
+  display: flex;
+  flex: 1 1 auto ;
+
+}
+
+.productCard {
+  max-width: 30%;
+  width: 30%;
+  border: 1px solid rgba(0,0,0,.125);
+}
+
+.productCard img {
+  margin-left: 25%;
+  max-width: 50%;
+  margin-top: 5%;
+}
+
+.productCard .detail {
+  margin-left: 5%;
+}
+
+.productCard .detail h1 {
+  margin-top: -2%;
+  font-weight: 550;
+  letter-spacing: 5px;
+}
+
+.productAction{
+  display: flex;
+  justify-content: right;
+  margin-bottom: 5%;
+  margin-right: 5%;
+  font-size: small;
+}
+
+.productAction a{
+  text-decoration: none;
+  margin-right: 5%;
+  font-size: 10px;
+  margin-top: 10px;
+  color: #55595c;
+}
+
+.productAction a:hover{
+  text-decoration: underline;
+  margin-right: 5%;
+  font-size: 10px;
+  margin-top: 10px;
+}
+
+.productAction button{
+  font-size: 10px;
+  margin-bottom: 5%;
+  padding: 0.5rem 1rem;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
